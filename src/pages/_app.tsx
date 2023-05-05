@@ -5,7 +5,7 @@ import { Theme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import React from 'react';
 import withDarkMode, { useDarkMode } from 'next-dark-mode';
-import { darkTheme, lightTheme } from './theme';
+import { darkTheme, lightTheme } from '../theme/theme';
 
 export function App({ Component, pageProps, darkMode }: AppProps & { darkMode: ReturnType<typeof useDarkMode>}) {
 	const theme: Theme = React.useMemo<Theme>((): Theme => (darkMode.darkModeActive ? darkTheme : lightTheme), [darkMode.darkModeActive]);
