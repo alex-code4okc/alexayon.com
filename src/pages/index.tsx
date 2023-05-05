@@ -29,7 +29,7 @@ export default function Home() {
 					component="h1"
 					className="text-2xl font-bold mb-8"
 				>
-					Hello there 👋🏼! My name is Alex Ayon, nice to meet you 😄 <Divider/> I`&apos;`m a senior software engineer currently living in Oklahoma City.
+					Hello there 👋🏼! My name is Alex Ayon, nice to meet you 😄 <Divider/> I&apos;m a senior software engineer currently living in Oklahoma City.
 				</Typography>
 				<Typography
 					component="p"
@@ -47,7 +47,7 @@ export default function Home() {
 						mb: 4,
 					}}
 				>
-					If you`&apos;`d like to get in touch with me, leave me a <Link underline="none" onClick={() => navigateToContactPage()}>message</Link>!
+					If you&apos;d like to get in touch with me, leave me a <Link underline="none" onClick={() => navigateToContactPage()}>message</Link>!
 				</Typography>
 			</Box>
 		</>

@@ -71,11 +71,11 @@ export default function Contact() {
 				data-netlify="true"
 				onSubmit={(e) => handleFormSubmit(e)}
 			>
-				<TextField
+				<input
 					name="bot-field"
 					type="hidden"
 				/>
-				<TextField
+				<input
 					name="form-name"
 					value="contact-form"
 					type="hidden"
