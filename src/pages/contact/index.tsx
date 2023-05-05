@@ -72,13 +72,13 @@ export default function Contact() {
 				onSubmit={(e) => handleFormSubmit(e)}
 			>
 				<TextField
-					hidden
 					name="bot-field"
+					type="hidden"
 				/>
 				<TextField
-					hidden
 					name="form-name"
 					value="contact-form"
+					type="hidden"
 				/>
 				<TextField
 					id="name"
