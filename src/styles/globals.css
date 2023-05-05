@@ -1,4 +1,14 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    font-size: 18px;
+}
+
+.link {
+  @apply font-semibold text-blue-600;
+}
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +114,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
